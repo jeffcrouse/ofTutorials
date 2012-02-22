@@ -37,17 +37,17 @@ Navigate to `apps/examples/graphicsExample` and double-click on `graphicsExample
 
 You should see a window that looks something like this:
 
-image::images/graphicsExample02.png["graphicsExample 02",width="800"]
+![GraphicsExample02](https://github.com/jefftimesten/ofTutorials/blob/master/Class001/images/graphicsExample02.png?raw=true)
 
 IMPORTANT: Find out which version you are using in the menubar: XCode > About XCode. If you are using XCode < 4.0 the window will look significantly different, but don't panic -- it should be fairly easy to find the corresponding interface features.
 
 You'll notice a big "Run" button at the top left side of the screen. In XCode 3, it is called "Build & Run". That will run the currently active target. But you might find that, by default, the active target is the openFrameworks library, which, by itself, doesn't do anything. What we want to run is "graphicsExample" program. So if you see this:
 
-image::images/target-bad.png[openFrameworks library chosen]
+![target-bad](https://github.com/jefftimesten/ofTutorials/blob/master/Class001/images/target-bad.png?raw=true)
 
 Click and drag down so that it looks like this:
 
-image::images/target-good.png[graphicsExample target chosen]
+![target-good](https://github.com/jefftimesten/ofTutorials/blob/master/Class001/images/target-good.png?raw=true)
 
 Now click "Run!"  You should see this:
 
