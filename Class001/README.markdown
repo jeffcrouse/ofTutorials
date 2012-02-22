@@ -56,8 +56,9 @@ image::images/graphicsExample03.png["graphicsExample, running",width="800"]
 Press escape or Apple+Q to exit out of the program.
 
 [WARNING]
-.Troubleshooting compilation
-=====================================================================
+
+#### 2.1.1 Troubleshooting compilation
+
 If you are getting errors, try switching the "Base SDK" setting to 10.6
 
 . Click on the "graphicsExample" in the section on the far left
@@ -65,27 +66,22 @@ If you are getting errors, try switching the "Base SDK" setting to 10.6
 . Make sure the "All" and "Combined" ovals are selected as shown below
 . Next to *Base SDK*, click and drag to "10.6"
 
-image:images/tenpointsix.png["10.6 Fix",width="600"]
+![tenpointsix](https://github.com/jefftimesten/ofTutorials/blob/master/Class001/images/tenpointsix.png?raw=true)
 
 It's possible that you will have to do this for every project, so you might as well get used to it :)
-=====================================================================
+
 
 Now you should open and run all of the other examples.
 
-Code::Blocks
-~~~~~~~~~~~~
+### 2.2 Code::Blocks
 
 coming soon!
 
-Visual Studio
-~~~~~~~~~~~~~
+### 2.3 Visual Studio
 
 coming soon!
 
-
-
-Creating Your First Project
----------------------------
+## 3. Creating Your First Project
 
 As mentioned in the introduction, openFrameworks takes care of most of the tedious work of setting up a c++ project in your IDE of choice. However, unlike programs like Flash or Processing, there is no "File > New" that allows you to create a project. Instead, the preferred method is to duplicate one of the example projects. 
 
@@ -93,23 +89,23 @@ IMPORTANT: By extension, this means that you should never edit any of the exampl
 
 As simple as this seems, this can be a huge stumbling block for a lot of beginners, so first lets agree on some terminology. 
 
-When you open your apps folder, you see 2 folders: _examples_ and _addonsExamples_. Let's call these folders *workspaces*.
+When you open your apps folder, you see 2 folders: `examples` and `addonsExamples`. Let's call these folders *workspaces*.
 
 If you open one of those workspaces, you see more folders, like _easyCamExample_, _floatingPointImageExample_, _movieGrabberExample_, and _serialExample_. Each one of those folders is a *project*. Each contains (among other things) an ".xcodeproj" file and a "src" folder. A *project* _must_ be inside a *workspace* and can be compiled into a single application.
 
-image:images/workspace04.png["Workspace terminology"]
+![workspace04](https://github.com/jefftimesten/ofTutorials/blob/master/Class001/images/workspace04.png?raw=true)
 
 We want to create a *project*, but every project has to live inside a *workspace*, and we're not supposed to put anything into the *examples* and *addonsExamples* workspaces, so our first step is going to be to make a new *workspace* by simply creating a folder called "MyFirstWorkspace" in the apps folder. You will probably end up making many workspaces while using openFrameworks. You can use them however you want, but the important thing is that they are directly inside the "apps" folder, ie: you can't have a workspace inside another workspace. 
 
-image:images/workspace01.png["My First Workspace"]
+![workspace01](https://github.com/jefftimesten/ofTutorials/blob/master/Class001/images/workspace01.png?raw=true)
 
-Next we will [underline]#copy# (NOT move) the entire "emptyExample" folder from the "examples" workspace and paste it into "MyFirstWorkspace". On a mac, you can literally click on the emptyExample folder, press apple+C, then navigate to the "MyFirstWorkspace" folder and press apple+V. So the result should look like this:
+Next we will [underline]#copy# (NOT move) the entire `emptyExample` folder from the `examples` workspace and paste it into "MyFirstWorkspace". On a mac, you can literally click on the emptyExample folder, press apple+C, then navigate to the `MyFirstWorkspace` folder and press apple+V. So the result should look like this:
 
-image:images/workspace02.png["My First Project"]
+![workspace02](https://github.com/jefftimesten/ofTutorials/blob/master/Class001/images/workspace02.png?raw=true)
 
-Next, we can rename the duplicate project folder from "emptyExample" to "MyFirstProject". 
+Next, we can rename the duplicate project folder from `emptyExample` to `MyFirstProject`. 
 
-image:images/workspace03.png["My First Project"]
+![workspace03](https://github.com/jefftimesten/ofTutorials/blob/master/Class001/images/workspace03.png?raw=true)
 
 The super important thing here is that your XCode Project file is *exactly* 3 folders "below" the Root Folder (refer to colorful diagram above). So, whenever you make a new project, or if you are suddenly getting thousands of errors for no apparent reason, you should always double check that your XCode Project file is in the correct place.
 
@@ -117,30 +113,29 @@ The reason for this has to do with the 'lib' folder. We previously mentioned tha
 
 Okay!  Now you have created your first very own openFrameworks project. Double click on the XCode Project file in your new "MyFirstProject" and make sure "emptyExample" is selected as the target and click "Run" and you should see:
 
-image:images/PlainGray.png["Plain Gray Window",width="600"]
+![PlainGray](https://github.com/jefftimesten/ofTutorials/blob/master/Class001/images/PlainGray.png?raw=true)
 
 Nothing! But that's exactly what you should see. Well, it's not too exciting yet, but you are well on your way.
 
 Press escape or Apple+Q to exit out of the program.
 
-[WARNING]
-.Renaming your Project in XCode
-=====================================================================
+
+#### 3.1 Renaming your Project in XCode
+
 You might be tempted to also rename "emptyExample.xcodeproj" to "MyFirstProject.xcodeproj", and if you are using XCode < 4, you can. But as of XCode 4, this seems to cause some problems. So, instead, open up your project in XCode and click on the "emptyExample" title in the upper left as shown here:
 
-image:images/rename01.png["Renaming your Project"]
+![rename01](https://github.com/jefftimesten/ofTutorials/blob/master/Class001/images/rename01.png?raw=true)
 
 After you rename it, you will get a dialog box asking you if you'd like to rename a bunch of other stuff. Click "Rename"
 
-image:images/rename02.png["Renaming your Project"]
+![rename02](https://github.com/jefftimesten/ofTutorials/blob/master/Class001/images/rename02.png?raw=true)
 
 voila!
-=====================================================================
 
 
 When you click "Run" from within XCode, what actually happens behind the scenes is that your code is compiled into an executable and placed within the "bin" directory. Then that application is run just as if you had double clicked it. So, if you look in "MyFirstWorkspace/MyFirstApplication/bin" folder, you should see an application icon. This is your application! If you double-click on it, you will see the same gray window. Now you can send this application to all of your friends (who use a Mac) and they can launch your wonderful gray window program.
 
-image:images/workspace05.png["Your Executable"]
+![workspace05](https://github.com/jefftimesten/ofTutorials/blob/master/Class001/images/workspace05.png?raw=true)
 
 Writing Code
 ------------
