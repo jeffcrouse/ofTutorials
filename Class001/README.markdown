@@ -4,11 +4,12 @@ In this will help you get started with the basics of openFrameworks, such as the
 
 ## 1. Your First Look inside oF
 By this point, I assume that you've [downloaded openFrameworks and followed the appropriate setup guide](http://www.openframeworks.cc/download/). So the first thing you'll want to do is uncompress the openFrameworks archive and place the resulting folder somewhere you can easily access. Personally, I like to drop it in my Documents folder and then put a shortcut in my sidebar, like this:
-![Shortcut](https://github.com/jefftimesten/ofTutorials/blob/master/Class001/images/shortcut.png)
+
+![Shortcut](https://github.com/jefftimesten/ofTutorials/blob/master/Class001/images/shortcut.png?raw=true)
 
 No matter where you put it, when you open up the folder, you should see a set of folders that looks basically like this:
 
-![Structure](https://github.com/jefftimesten/ofTutorials/blob/master/Class001/images/structure1.png)  
+![Structure](https://github.com/jefftimesten/ofTutorials/blob/master/Class001/images/structure1.png?raw=true)  
 
 So what are these folders?
 
