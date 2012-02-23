@@ -6,6 +6,14 @@
 \ \____/\ \_\     \ \_\ \____/ \ \__\ \____/\ \_\  \ \_\ \__/.\_\/\____\/\____/
  \/___/  \/_/      \/_/\/___/   \/__/\/___/  \/_/   \/_/\/__/\/_/\/____/\/___/ 
  
- -----------
+-----------
+ 
+The files in this repository are used to generate the site at http://www.oftutorials.com
  
  
+ASCIIDOC
+--------
+ 
+This documentation is written in ASCIIDOC format.  
+ 
+http://powerman.name/doc/asciidoc

@@ -1,5 +1,13 @@
-Chapter 1 - Getting Started
-===========================
+ofTutorials - Chapter 1 - Getting Started
+=========================================
+Jeff Crouse <jeff@crouse.cc>
+v0.1, February 2012:
+:Author Initials: JRC
+:toc:
+:icons:
+:numbered:
+:doctype: book
+
 
 This chapter will help you get started with the basics of openFrameworks, such as the proper method for creating a project, setting window size, and basic drawing. But first...
 

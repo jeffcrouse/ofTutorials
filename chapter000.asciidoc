@@ -1,7 +1,7 @@
-CodeForArt - A Comprehensive Guide to openFrameworks
-====================================================
+ofTutorials - A Comprehensive Guide to openFrameworks
+=====================================================
 Jeff Crouse <jeff@crouse.cc>
-0.1, January 2012:
+v0.1, January 2012:
 :Author Initials: JRC
 :toc:
 :icons:
@@ -9,21 +9,13 @@ Jeff Crouse <jeff@crouse.cc>
 :doctype: book
 
 
-
-
 [preface]
 Introduction
 ============
 
 image::images/ofw-logo.png["oF Logo",float="right"]
-This documentation was created for the CodeForArt class at http://www.newschool.edu/parsons/mfa-design-technology/[Parsons The New School for Design]. The apps provided are meant to compliment the existing examples, and also provide a more structured path through the topics of interactive programming with openFrameworks.
-
-NOTE:  The CodeForArt folder should be placed in the root level of your openFrameworks directory (alongside addons, apps, and libs). 
-
-NOTE:  This repository has recently undergone a pretty dramatic change and is being re-created to focus more on the accompanying documentation. New documentation will be added throughout the Spring 2012 semester. If you just want the old examples, please get https://github.com/jefftimesten/CodeForArt/tree/v0.1[the *v0.1* tag on github].
 
 So let's start from the beginning.
-
 
 What is OpenFrameworks?
 ~~~~~~~~~~~~~~~~~~~~~~~
