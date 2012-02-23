@@ -8,6 +8,8 @@ v0.1, January 2012:
 :numbered:
 :doctype: book
 
+Welcome to the ofTutorials guide to openFrameworks! This introduction will prepare you to read Chapter 1.
+
 
 [preface]
 Introduction
@@ -19,6 +21,7 @@ So let's start from the beginning.
 
 What is OpenFrameworks?
 ~~~~~~~~~~~~~~~~~~~~~~~
+
 
 [quote, openframeworks.cc/about]
 __________________________
@@ -37,6 +40,7 @@ Simply put, openFrameworks is a tool that makes it much easier to make things wi
 
 openFrameworks is actively developed by http://thesystemis.com/[Zach Lieberman], http://muonics.net/[Theodore Watson], and http://arturocastro.net/[Arturo Castro], with help from the http://www.openframeworks.cc/community/[OF community]. openFrameworks is indebted to two significant precursors: the http://processing.org/[Processing development environment], created by http://reas.com/[Casey Reas], http://benfry.com/[Ben Fry] and the Processing community; and the ACU Toolkit, a privately distributed C++ library developed by Ben Fry and others in the http://acg.media.mit.edu/[MIT Media Lab's Aesthetics and Computation Group].
 __________________________
+
 
 Some of these packages (like OpenGL) will be explored in more depth in other parts of the documentation. Most of them do their thing in the background and you will probably never have to worry about them. Each of these libraries have their own syntax, conventions, and quirks, but the beauty of openFrameworks is that you don't have to worry about them -- oF is a single, consistent interface to the functionality that these other libraries provide.
 
@@ -59,7 +63,6 @@ What is a software framework?::
 	In fact many other multimedia authoring environments work this way even if they do so less transparently.
 	
 	Consider this loose analogy: You are writing and directing your own film and have decided to work with a film production company. The production company reserves the location, provides all of the infrastructure, finds the camera crew, lighting director, sound engineer and other important staff. It makes sure everyone is on the set on time and doing their job when they should, including you. Your job is to define what happens on the set once everyone is ready. OpenFrameworks is like a film production company for your program. It takes care of the administrative and logistical details and allows you to concentrate on your creative vision.
-
 
 C++ is a programming language
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~

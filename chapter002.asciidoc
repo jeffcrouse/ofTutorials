@@ -9,3 +9,4 @@ v0.1, February 2012:
 :doctype: book
 
 
+This chapter will introduce methods of animation and making things move.  
