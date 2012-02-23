@@ -1,5 +1,5 @@
-ofTutorials - A Comprehensive Guide to openFrameworks
-=====================================================
+ofTutorials - Chapter 0 - Introduction
+======================================
 Jeff Crouse <jeff@crouse.cc>
 v0.1, January 2012:
 :Author Initials: JRC

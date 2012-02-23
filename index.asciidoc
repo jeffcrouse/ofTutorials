@@ -1,5 +1,12 @@
-
-
+ofTutorials - A Comprehensive Guide to openFrameworks
+=====================================================
+Jeff Crouse <jeff@crouse.cc>
+v0.1, January 2012:
+:Author Initials: JRC
+:toc:
+:icons:
+:numbered:
+:doctype: book
 
 - link:chapter000.html[Introduction]
 
@@ -9,6 +16,7 @@ This chapter will help you get started with the basics of openFrameworks, such a
 - link:chapter002.html[Chapter 2 - Creating Movement]
 This chapter will introduce methods of animation and making things move.  
 
-
+- link:chapter003.html[Chapter 3 - Arrays]
+Arrays are cool! 
 
 
