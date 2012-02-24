@@ -1,4 +1,4 @@
-ofTutorials - Introduction
+ofTutorials - Introdución
 ==========================
 Jeff Crouse <jeff@crouse.cc>
 v0.1, January 2012:
@@ -6,6 +6,8 @@ v0.1, January 2012:
 :icons:
 :numbered:
 :doctype: book
+
+Este capítulo tiene como objetivo que puedas aprender un poco de openFrameworks para armar tu primer proyecto.
 
 This chapter will introduce openFrameworks and prepare you to start your first project.
 
