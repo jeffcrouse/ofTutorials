@@ -1,0 +1,13 @@
+[appendix]
+Additional Resources
+====================
+
+Learning c++
+~~~~~~~~~~~~~
+The goal of this documentation is not to teach you `c++` (although you will undoubtedly pick it up in the process of reading it). Here are some general c++ resources if you are more comfortable with a bottom-up approach.
+
+- Philip Machanick – http://www.interactivearchitecture.org/c_c++_in_five_days.pdf[C and C++ in 5 days]. An excellent resource for learning c++ (and in 5 days, no less!)
+- http://www.parashift.com/c++-faq-lite/index.html[The C++ Faq lite] If you need help with a specific feature.
+- http://www.cplusplus.com/[cplusplus.com] - general info, and API references for standard libraries.
+- http://stackoverflow.com/[Stack Overflow], a community-edited sites with general questions about programming.
+
