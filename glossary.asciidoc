@@ -8,7 +8,6 @@ v0.1, February 2012:
 :numbered:
 :doctype: book
 
-[glossary]
 IDE::
 	Integrated Development Environment
 
@@ -17,3 +16,6 @@ source code::
 
 compiler::
 	A program that turns sorce code into machine code
+
+nerd:
+	Jim George
