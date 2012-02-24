@@ -12,7 +12,7 @@ This chapter will introduce openFrameworks and prepare you to start your first p
 image::images/ofw-logo.png["oF Logo",float="right"]
 
 What is OpenFrameworks?
-~~~~~~~~~~~~~~~~~~~~~~~
+=======================
 
 [quote, openframeworks.cc/about]
 __________________________
@@ -56,7 +56,7 @@ What is a software framework?::
 	Consider this loose analogy: You are writing and directing your own film and have decided to work with a film production company. The production company reserves the location, provides all of the infrastructure, finds the camera crew, lighting director, sound engineer and other important staff. It makes sure everyone is on the set on time and doing their job when they should, including you. Your job is to define what happens on the set once everyone is ready. OpenFrameworks is like a film production company for your program. It takes care of the administrative and logistical details and allows you to concentrate on your creative vision.
 
 C++ is a programming language
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+-----------------------------
 
 We learned in the last section that openFrameworks is *not* a programing language, but rather a software framework for creating http://en.wikipedia.org/wiki/C%2B%2B[`c++`] programs. But what is c++?
 
@@ -85,7 +85,7 @@ After being run through a compiler, this code will create a fully executable pro
 WARNING:  This process will vary slightly depending on platform. The following instructions are for the Mac OS, and you must have XCode installed to run them.
 
 Compiling your First c++ program
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 image::images/PlainText.png["PlainText",float="right"]
 

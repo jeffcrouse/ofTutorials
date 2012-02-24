@@ -4,13 +4,24 @@ Jeff Crouse <jeff@crouse.cc>
 v0.1, January 2012:
 :Author Initials: JRC
 :icons:
+:toc:
 :numbered:
 :doctype: book
 
-
+:leveloffset: 1
 include::chapter000.asciidoc[]
+
+:leveloffset: 1
 include::chapter001.asciidoc[]
+
+:leveloffset: 1
 include::chapter002.asciidoc[]
+
+:leveloffset: 1
 include::chapter003.asciidoc[]
+
+:leveloffset: 1
 include::appendixA.asciidoc[]
+
+:leveloffset: 1
 include::glossary.asciidoc[]
