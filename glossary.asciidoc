@@ -9,11 +9,6 @@ v0.1, February 2012:
 :doctype: book
 
 
-Glossary of Terms
-=================
-Glossaries are optional. Glossaries entries are an example of a style
-of AsciiDoc labeled lists.
-
 [glossary]
 IDE::
 	Integrated Development Environment

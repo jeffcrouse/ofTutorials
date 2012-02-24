@@ -7,6 +7,8 @@ v0.1, January 2012:
 :numbered:
 :doctype: book
 
+Welcome to the ofTutorials guide to openFrameworks! 
+
 - link:chapter000.html[Introduction]
 
 - link:chapter001.html[Chapter 1 - Getting Started]
@@ -20,17 +22,20 @@ Arrays are cool!
 
 - link:glossary.html[Glossary]
 
-- link:appendix001.html[Appendix A - Learning c++]
+- link:appendixA.html[Appendix A - Learning c++]
 
 
 About this Documentation
-~~~~~~~~~~~~~~~~~~~~~~~~
+------------------------
 
 This documentation is generated with http://http://www.methods.co.nz/asciidoc[asciidoc]. If you want to re-generate any of the documentation, you'll need to install it. You'll also need http://www.gnu.org/software/src-highlite/[source-highlight]. 
 
 CAUTION: The most recent version of source-highlight at the time of this writing was 3.1.6, but I couldn't get this to compile on my Mac running 10.7.2. However, going back to ftp://ftp.gnu.org/gnu/src-highlite/source-highlight-3.0.tar.gz[source-highlight-3.0] worked just fine.
 
 Contributing to this documentation
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-You can contribute to this documentation through GitHub
+----------------------------------
+
+This documentation lives at https://github.com/jefftimesten/ofTutorials
+
+Feel free to send pull requests!
 

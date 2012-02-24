@@ -3,25 +3,16 @@ ofTutorials - Introduction
 Jeff Crouse <jeff@crouse.cc>
 v0.1, January 2012:
 :Author Initials: JRC
-:toc:
 :icons:
 :numbered:
 :doctype: book
 
-Welcome to the ofTutorials guide to openFrameworks! This introduction will prepare you to read Chapter 1.
-
-
-[preface]
-Introduction
-============
+This chapter will introduce openFrameworks and prepare you to start your first project.
 
 image::images/ofw-logo.png["oF Logo",float="right"]
 
-So let's start from the beginning.
-
 What is OpenFrameworks?
 ~~~~~~~~~~~~~~~~~~~~~~~
-
 
 [quote, openframeworks.cc/about]
 __________________________

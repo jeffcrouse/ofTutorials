@@ -1,5 +1,12 @@
-Appendix A - Learning c++
-=========================
+ofTutorials - Appendix A - Appendix A - Learning c++
+====================================================
+Jeff Crouse <jeff@crouse.cc>
+v0.1, February 2012:
+:Author Initials: JRC
+:toc:
+:icons:
+:numbered:
+:doctype: book
 
 The goal of this documentation is not to teach you `c++` (although you will undoubtedly pick it up in the process of reading it). Here are some general c++ resources if you are more comfortable with a bottom-up approach.
 

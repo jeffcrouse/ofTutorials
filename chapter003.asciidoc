@@ -8,5 +8,4 @@ v0.1, February 2012:
 :numbered:
 :doctype: book
 
-
 This chapter will introduce containers such as arrays and vectors
