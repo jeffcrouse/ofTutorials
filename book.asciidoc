@@ -1,5 +1,16 @@
+ofTutorials - A Comprehensive Guide to openFrameworks
+=====================================================
+Jeff Crouse <jeff@crouse.cc>
+v0.1, January 2012:
+:Author Initials: JRC
+:icons:
+:numbered:
+:doctype: book
 
 
+include::chapter000.asciidoc[]
 include::chapter001.asciidoc[]
 include::chapter002.asciidoc[]
 include::chapter003.asciidoc[]
+include::appendixA.asciidoc[]
+include::glossary.asciidoc[]
