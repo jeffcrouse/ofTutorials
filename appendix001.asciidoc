@@ -1,9 +1,6 @@
-[appendix]
-Additional Resources
-====================
+Appendix A - Learning c++
+=========================
 
-Learning c++
-~~~~~~~~~~~~~
 The goal of this documentation is not to teach you `c++` (although you will undoubtedly pick it up in the process of reading it). Here are some general c++ resources if you are more comfortable with a bottom-up approach.
 
 - Philip Machanick – http://www.interactivearchitecture.org/c_c++_in_five_days.pdf[C and C++ in 5 days]. An excellent resource for learning c++ (and in 5 days, no less!)

@@ -21,10 +21,9 @@ Arrays are cool!
 
 - link:glossary.html[Glossary]
 
-- link:appendix001.html[Appendix]
+- link:appendix001.html[Appendix A - Learning c++]
 
 
-[appendix]
 About this Documentation
 ========================
 
