@@ -9,7 +9,9 @@
 -----------
  
 The files in this repository are used to generate the site at http://www.oftutorials.com
- 
+
+If you create a fork, please create a post-receive-hook with the URL http://oftutorials.com/postreceive.  More information here: http://help.github.com/post-receive-hooks/
+
  
 ASCIIDOC
 --------
