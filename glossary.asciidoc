@@ -17,5 +17,9 @@ source code::
 compiler::
 	A program that turns sorce code into machine code
 
-nerd:
-	Jim George
+pointer::
+	 A pointer is a special kind of variable in C and C++ that holds the memory address of another variable.
+	 
+array:
+	foo
+	
