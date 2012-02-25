@@ -1,0 +1,66 @@
+<?php
+$this->headTitle('Home');
+$this->headScript()->captureStart();
+?>
+
+$(function(){
+
+});
+
+<?php 
+$this->headScript()->captureEnd();
+$this->headStyle()->captureStart() 
+?>
+h2, h3 {
+	border: 0;
+	padding: 0;
+	margin: 0;
+}
+#menubar {
+	width: 200px; 
+	float: left;
+}
+#menubar ul {
+	list-style-position: inside;
+	list-style-type: none;
+	padding: 0;
+}
+#content {
+	width: 600px; 
+	float: left;
+}
+.content-section {
+	padding-bottom: 30px;
+}
+<?php $this->headStyle()->captureEnd(); ?>
+
+<!-- menubar -->
+<div id="menubar">
+	<ul>
+		<?php foreach(Category::all() as $category): if(count($category->tutorials)): ?>
+		<li><a href="#<?=$category->slug()?>"><?=$category->name?></a></li>
+		<?php endif; endforeach; ?>
+	</ul>
+</div>
+<!-- /menubar -->
+
+<!-- content -->
+<div id="content">
+	
+	<p>If you'd like your tutorial to appear here, simply tweet a link to it with the tag #oftutorials</p>
+	
+	<?php foreach(Category::all() as $category): if(count($category->tutorials)): ?>
+		<h3><a name="<?=$category->slug()?>"><?=$category->name?></a></h3>
+		<ul>
+		<?php foreach($category->tutorials as $tutorial): ?>
+			<li>
+				<a href="<?=$tutorial->url?>"><?=$tutorial->title?></a> 
+				<?php if($tutorial->author_url) { printf('by <a href="%s">%s</a>', $tutorial->author_url, $tutorial->author); } ?>
+				<?php if($tutorial->published_at) { echo "published ".$tutorial->published_at->format('Y-m-d'); }?>
+			</li>
+		<?php endforeach; ?>
+		</ul>
+	<?php endif; endforeach; ?>
+
+</div>
+<!-- /content -->

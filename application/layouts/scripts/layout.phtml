@@ -1,0 +1,60 @@
+<?php
+$this->headMeta()->appendHttpEquiv('Content-Type', 'text/html;charset=utf-8');
+$this->headTitle()->setSeparator(' - ');
+$this->headTitle()->prepend('ofTutorial');
+
+$this->headScript()->prependFile('/js/plugins.js');
+$this->headScript()->prependFile('/js/libs/modernizr-2.5.3.min.js');
+$this->headScript()->prependFile('http://ajax.googleapis.com/ajax/libs/jqueryui/1.8.16/jquery-ui.min.js');
+$this->headScript()->prependFile('http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js');
+
+$this->headLink()->appendStylesheet('http://ajax.googleapis.com/ajax/libs/jqueryui/1.8.17/themes/hot-sneaks/jquery-ui.css');
+$this->headLink()->appendStylesheet('/css/style.css');
+$this->headLink()->appendStylesheet('http://fonts.googleapis.com/css?family=Questrial');
+?>
+<!doctype html>
+<!-- paulirish.com/2008/conditional-stylesheets-vs-css-hacks-answer-neither/ -->
+<!--[if lt IE 7]> <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en"> <![endif]-->
+<!--[if IE 7]>    <html class="no-js lt-ie9 lt-ie8" lang="en"> <![endif]-->
+<!--[if IE 8]>    <html class="no-js lt-ie9" lang="en"> <![endif]-->
+<!-- Consider adding a manifest.appcache: h5bp.com/d/Offline -->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en"> <!--<![endif]-->
+<head>
+	<meta charset="utf-8">
+	
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+	
+	<?php echo $this->headTitle(); ?>
+	<meta name="description" content="ofTutorials site">
+	<meta name="viewport" content="width=device-width">
+	
+	<?php echo $this->headLink() ?>
+	<?php echo $this->headScript(); ?>
+	<?php echo $this->headStyle(); ?>	
+</head>
+<body>
+	
+	<!--[if lt IE 7]><p class=chromeframe>Your browser is <em>ancient!</em> <a href="http://browsehappy.com/">Upgrade to a different browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">install Google Chrome Frame</a> to experience this site.</p><![endif]-->
+	<header>
+	<a href="/" class="nohover"><img src="/img/oftuts-logo.png" border="0" alt="openFrameworks" /></a>
+	
+	</header>
+	<div id="main" role="main">
+	<?php echo $this->layout()->content; ?>
+	</div>
+	<br style="clear: both;" />
+	
+	<footer>
+	made by Jeff Crouse
+	</footer>
+	
+	<script>
+	
+	
+	var _gaq=[['_setAccount','UA-74771-23'],['_trackPageview']];
+	(function(d,t){var g=d.createElement(t),s=d.getElementsByTagName(t)[0];
+	g.src=('https:'==location.protocol?'//ssl':'//www')+'.google-analytics.com/ga.js';
+	s.parentNode.insertBefore(g,s)}(document,'script'));
+	</script>
+</body>
+</html>

@@ -1,0 +1,31 @@
+
+<?php if($this->tweets): ?>
+
+	<?php foreach($this->tweets as $tweet): if(count($tweet["entities"]["urls"])>0): ?>
+		<form action="/tutorial/add" method="post" style="width: 290px; padding-right: 10px; float: left; padding-bottom: 20px;">
+			
+			<!-- avatar -->
+			<div style="width: 60px; float: left; font-size: small;">
+				<img src="<?=$tweet["profile_image_url"]?>" /> 
+				
+			</div>
+			<!-- /avatar -->
+			
+			<!-- text -->
+			<div style="width: 230px; float: left;">
+				<?=$tweet["from_user"]?> - 
+				<a href="<?=$tweet["entities"]["urls"][0]["expanded_url"]?>">
+					<?=$this->truncate($tweet["text"], 0, 45)?>
+				</a>
+			</div>
+			<!-- /text -->
+			
+			<input type="hidden" name="tweet_id" value="<?=$tweet["id"];?>" />
+		</form>
+	<?php endif; endforeach; ?>
+
+<?php else: ?>
+	
+	<p>No tweets found!</p>
+
+<?php endif; ?>

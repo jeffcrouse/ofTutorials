@@ -1,0 +1,59 @@
+<?php
+$this->headTitle('Admin');
+$this->headScript()->captureStart();
+?>
+$(function(){
+	$("#tweets").load("/admin/tweets");
+});
+<?php 
+$this->headScript()->captureEnd();
+$this->headStyle()->captureStart() 
+?>
+h2, h3 {
+	border: 0;
+	padding: 0;
+	margin: 0;
+}
+#menubar {
+	width: 200px; 
+	float: left;
+}
+#menubar ul {
+	list-style-position: inside;
+	list-style-type: none;
+	padding: 0;
+}
+#content {
+	width: 600px; 
+	float: left;
+}
+.content-section {
+	padding-bottom: 30px;
+}
+<?php $this->headStyle()->captureEnd(); ?>
+
+<!-- menubar -->
+<div id="menubar">
+	<ul>
+		<li>Tweets</li>
+		<li>Tutorials</li>
+	</ul>
+</div>
+<!-- /menubar -->
+
+<!-- content -->
+<div id="content">
+	
+	<div class="content-section" >
+	
+		
+		<div id="tweets"></div>
+
+	</div>
+	
+	
+	<div class="content-section">
+	
+	
+	</div>
+<!-- /content -->
